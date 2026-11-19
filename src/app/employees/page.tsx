@@ -69,15 +69,18 @@ export default function EmployeesPage() {
       <Sidebar />
 
       <div className="flex-1 min-w-0">
-        <Header title="Employees" description="Manage and view your organization's employees." />
+        <Header
+          title="Employees"
+          description="Manage and view your organization's employees."
+        />
 
         <section className="p-8 space-y-8">
           {/* Page heading */}
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-slate-900">Manage Employees</h1>
-
-             
+              <h1 className="text-2xl font-bold text-slate-900">
+                Manage Employees
+              </h1>
             </div>
 
             <button className="flex items-center gap-2 bg-violet-600 hover:bg-violet-700 text-white px-4 py-3 rounded-lg text-sm font-medium transition">
